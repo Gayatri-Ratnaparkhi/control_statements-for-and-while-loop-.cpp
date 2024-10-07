@@ -23,7 +23,7 @@ The main difference between a do-while loop and the while loop is in the do-whil
 i.e do-while loop is exit controlled whereas the other two loops are entry-controlled loops.
 
 ## codes:
-Authentication passward:
+1.Authentication passward:
 
 #include<iostream>
 
@@ -55,6 +55,58 @@ int main(){
             
 			
 return 0;
+    
+}
+
+2.print values between 0 and 10
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+    int i;
+
+    for(i=0;i<=10;i++){
+    
+        if(i%2==0){
+	
+            cout<<i<<'\n';
+	    
+        }
+    }
+    return 0;
+    
+}
+
+3.floyed series:
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+    int i, j, a=1;
+    
+    for(i=1;i<=5;i++){
+    
+        for(j=1;j<=i;j++){
+	
+            cout<<a<<" ";
+	    
+            a++;
+	    
+        }
+        cout<<"\n";
+
+4.Pattern 1:
+
+
+	
+    }
+    return 0;
     
 }
 
